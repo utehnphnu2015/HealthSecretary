@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="บริการ">
+            <menu>
+                <item
+                    android:id="@+id/navItem1"
+                    android:icon="@drawable/ic_action"
+                    android:title="หมอนัด" />
+                <item
+                    android:id="@+id/navItem2"
+                    android:icon="@drawable/ic_action_location_found_dark"
+                    android:title="โรงพยาบาล" />
+            </menu>
+        </item>
+
+        <item
+            android:title="กลุ่มเมนู">
+            <menu>
+                <item
+                    android:id="@+id/navItem3"
+                    android:icon="@drawable/ic_action_location_found_dark"
+                    android:title="สื่อความรู้" />
+
+                <item
+                    android:id="@+id/navItem4"
+                    android:icon="@drawable/ic_action_location_found_dark"
+                    android:title="หมอครอบครัว" />
+            </menu>
+        </item>
+
+        <item
+            android:title="ช่วยเหลือ">
+            <menu>
+                <item
+                    android:id="@+id/navItem5"
+                    android:icon="@drawable/ic_action_location_found_dark"
+                    android:title="HN" />
+
+                <item
+                    android:id="@+id/navItem6"
+                    android:icon="@drawable/ic_action_location_found_dark"
+                    android:title="QR" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
