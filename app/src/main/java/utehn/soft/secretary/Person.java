@@ -12,5 +12,6 @@ class Person {
         this.photoId = photoId;
         this.bgcolor = bgcolor;
     }
+    //
 }
 
